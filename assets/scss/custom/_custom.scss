@@ -1,0 +1,16 @@
+
+.nav {
+        font-size: 90%;
+}
+.nav-toggle span {
+    margin-top: 0.5em;
+}
+.menu-item {
+    display: inline-block;
+    a {
+        color: #333;
+        &:hover {
+            color: var(--color-primary);
+        }
+    }
+}
